@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Fraunces',serif;
-  font-color: #7E9AE6;
+  color: #7E9AE6;
  // background-color: #c2e6e8;
 }
 
@@ -112,7 +112,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid var(--button-color);
+  border: 2px solid var(--body-shadow-color);
   padding: 10px;
   border-radius: 10px;
   width: 48%;
