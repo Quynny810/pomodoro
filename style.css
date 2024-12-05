@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500,50&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
 /* General */
 
 body {
-  font-family: 'Fraunces';
+  font-family: 'Fraunces',serif;
  // background-color: #c2e6e8;
 }
 
@@ -11,6 +11,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+:root {
   --button-color: #DABEF3;
   --button-shadow-color: #A992CA;
   --body-color: #DBCFF6;
