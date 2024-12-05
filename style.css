@@ -14,12 +14,12 @@ body {
 }
 
 :root {
-  --button-color: #cff5f4;
-  --button-shadow-color: #73cde6;
-  --body-color: #dbd9ff;
-  --body-shadow-color: #7e9ae6;
-  --screen-color: #ffffff;
-  --screen-shadow-color: #fbdcea;
+  --button-color: #CFF5F4;
+  --button-shadow-color: #73CDE6;
+  --body-color: #DBD9FF;
+  --body-shadow-color: #7E9AE6;
+  --screen-color: #FFFFFF;
+  --screen-shadow-color: #FBDCEA;
 }
 
 button,
