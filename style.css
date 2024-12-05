@@ -55,6 +55,17 @@ button:focus {
 
 /* Display + Stop/Start/Reset Controls */
 
+#mask-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: circle(50% at 50% 50%);
+  z-index: -1; /* Place it behind the text */
+}
+
 #time-left {
   font-size: 70px;
   text-align: center;
@@ -62,7 +73,9 @@ button:focus {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 3px 3px var(--screen-shadow-color) inset;
+  position: relative; /* Ensure it is above the mask */
 }
+
 
 #display-controls {
   margin: 10px 0;
