@@ -14,10 +14,12 @@ body {
 }
 
 :root {
-  --button-color: #DABEF3;
-  --button-shadow-color: #A992CA;
-  --body-color: #DBCFF6;
-  --screen-color: #E7E4F4;
+  --button-color: #DBCFF6;
+  --button-shadow-color: #DABEF3;
+  --body-color: #EAC6E3;
+  --body-shadow-color: #A992CA;
+  --screen-color: #ffffff;
+  --screen-shadow-color: #E7E4F4;
 }
 
 button,
@@ -58,7 +60,7 @@ button:focus {
   background-color: var(--screen-color);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 3px 3px var(--screen-shadow-color) inset;
 }
 
 #display-controls {
@@ -73,11 +75,11 @@ button:focus {
   font-size: 25px;
   text-align: center;
   padding-top: 2px;
-  background-color: rgb(150,180,175);
+  background-color: var(--screen-color);
   border-radius: 10px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 3px 3px var(--screen-shadow-color) inset;
 }
 
 #timer-ssr {
@@ -109,7 +111,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid rgb(234,178,156);
+  border: 2px solid var(--button-color);
   padding: 10px;
   border-radius: 10px;
   width: 48%;
