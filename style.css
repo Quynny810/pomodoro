@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500,50&display=swap');
 
 /* General */
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fraunces';
  // background-color: #c2e6e8;
 }
 
@@ -11,32 +11,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  --button-color: #DABEF3;
+  --button-shadow-color: #A992CA;
+  --body-color: #DBCFF6;
+  --screen-color: #E7E4F4;
 }
 
 button,
 button:active {
-  background-color: rgb(234,178,156);
+  background-color: var(--button-color);
   border: none;
-  width: 42px;
+  width: 40px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  box-shadow: 0.2em 0.2em var(--button-shadow-color);
+  -webkit-box-shadow: 0.2em 0.2em var(--button-shadow-color);
+  -moz-box-shadow: 0.2em 0.2em var(--button-shadow-color);
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  box-shadow: 0.2em 0.2em var(--button-shadow-color) inset;
+  -webkit-box-shadow: 0.2em 0.2em var(--button-shadow-color) inset;
+  -moz-box-shadow: 0.2em 0.2em var(--button-shadow-color) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
+  background-color: var(--body-color); 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
@@ -48,7 +52,7 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(150,180,175);
+  background-color: var(--screen-color);
   padding: 20px;
   border-radius: 20px;
   box-shadow: 3px 3px rgb(121, 145, 141) inset;
