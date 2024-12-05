@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Fraunces',serif;
+  font-color: #7E9AE6;
  // background-color: #c2e6e8;
 }
 
@@ -19,7 +20,7 @@ body {
   --body-color: #DBD9FF;
   --body-shadow-color: #7E9AE6;
   --screen-color: #FFFFFF;
-  --screen-shadow-color: #FBDCEA;
+  --screen-shadow-color: #CFF5F4;
 }
 
 button,
